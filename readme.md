@@ -10,7 +10,7 @@ Projects created thanks to [this tutorial](https://youtu.be/c5SIG7Ie0dM)
 6. Modal ✓
 7. Questions ✓
 8. Menu ✓
-9. Video ✓
+9. Video ✗
 10. Scroll ✓
 11. Tabs ←
 12. Countdown
