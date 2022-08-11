@@ -28,7 +28,14 @@ const deadline = document.querySelector(".deadline")
 const items = document.querySelectorAll(".deadline-format h4")
 
 // 2. set date
-let futureDate = new Date(2022, 7, 15, 10, 30, 0)
+// this hardcode
+// let futureDate = new Date(2022, 7, 15, 10, 30, 0)
+// today + 10 days
+let tempDate = new Date()
+let tempYear = tempDate.getFullYear()
+let tempMonth = tempDate.getMonth()
+let tempDay = tempDate.getDate()
+const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 30, 0)
 
 // 3. find dates
 // year
