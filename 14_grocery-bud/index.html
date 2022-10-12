@@ -13,35 +13,36 @@
     <title>Grocery Bud</title>
 </head>
 <body>
-    <main>
+    <section class="container">
         <!-- form -->
-        <form class="grocery-form">
+        <form class="grocery_form">
             <p class="alert"></p>
-            <h2>grocery bud</h2>
-            <div>
-                <input type="text" name="grocery" id="grocery" placeholder="add item">
-                <button type="submit" class="submit-btn">add</button>
+            <h1>grocery bud</h1>
+            <div class="form_control">
+                <input type="text" name="grocery" id="add_item" placeholder="add item">
+                <button type="submit" class="submit_btn">submit</button>
             </div>
         </form>
         <!-- list -->
-        <div class="grocery-container">
-            <div class="grocery-list">
-                <article class="grocery-item">
-                    <p class="title">item</p>
-                    <div class="btn-container">
-                        <button type="button" class="edit-btn">
-                            <i class="fa-solid fa-pen"></i>
+        <div class="grocery_container">
+            <div class="grocery_list">
+                <!-- adding dynamically -->
+                 <!-- <article class="grocery_item">
+                   <p class="item">item</p>
+                    <div class="btn_container">
+                        <button class="edit_btn">
+                            <i class="fas fa-edit"></i>
                         </button>
-                        <button type="button" class="delete-btn">
-                            <i class="fa-solid fa-trash"></i>
+                        <button class="delete_btn">
+                            <i class="fas fa-trash"></i>
                         </button>
-                    </div>
-                </article>
+                    </div> 
+                </article>-->
             </div>
-            <!-- clear button -->
-            <button type="button" class="clear-btn">clear items</button>
+            <!-- button -->
+            <button type="button" class="clear_btn">clear items</button>
         </div>
-    </main>
+    </section>
     <!-- javascript -->
     <script src="app.js"></script>
 </body>
