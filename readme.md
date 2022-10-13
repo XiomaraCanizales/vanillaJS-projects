@@ -16,4 +16,4 @@ Projects created thanks to [this tutorial](https://youtu.be/c5SIG7Ie0dM)
 12. Countdown ✓
 13. Lorem Ipsum ✓
 14. Grocery ✓
-15. Slider ←
+15. Slider ✓
