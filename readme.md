@@ -1,5 +1,5 @@
 # Vanilla JS Beginners Projects
-Projects created thanks to [this tutorial](https://youtu.be/c5SIG7Ie0dM)
+Projects created with [this tutorial](https://youtu.be/c5SIG7Ie0dM)
 
 ## Projects
 1. Color Flipper ✓
